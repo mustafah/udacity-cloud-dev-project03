@@ -1,0 +1,9 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+      "FUNCTIONS_WORKER_RUNTIME": "python",
+      "AzureWebJobsStorage":      "DefaultEndpointsProtocol=https;AccountName=blob130785;AccountKey=fPS+bGjev1Q5zxecyPJY1ofkR8/+BGlYec+Rr53nvShIYGYAWO3p1PmYKS/7cF7cqBeSEvEmcZdmz+bpv5yZoA==;EndpointSuffix=core.windows.net",
+      "SENDGRID_API_KEY":         "mZ+q5qAH0PfiQtjk8yxY2nSwdjmed6fg3FZOOejGBDo=", 
+      "AzureWebJobsServiceBus":   "Endpoint=sb://servicebus130785.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=mZ+q5qAH0PfiQtjk8yxY2nSwdjmed6fg3FZOOejGBDo="
+    }
+  }

@@ -1,0 +1,54 @@
+$ bash servicebus.sh 
+{
+  "createdAt": "2021-05-05T12:27:59.490000+00:00",
+  "id": "/subscriptions/5432daaa-6134-4139-bf42-50cc75091f0a/resourceGroups/group130785/providers/Microsoft.ServiceBus/namespaces/servicebus130785",
+  "location": "UAE North",
+  "metricId": "5432daaa-6134-4139-bf42-50cc75091f0a:servicebus130785",
+  "name": "servicebus130785",
+  "provisioningState": "Succeeded",
+  "resourceGroup": "group130785",
+  "serviceBusEndpoint": "https://servicebus130785.servicebus.windows.net:443/",
+  "sku": {
+    "capacity": null,
+    "name": "Basic",
+    "tier": "Basic"
+  },
+  "tags": {},
+  "type": "Microsoft.ServiceBus/Namespaces",
+  "updatedAt": "2021-05-05T12:28:47.930000+00:00"
+}
+{
+  "accessedAt": "0001-01-01T00:00:00",
+  "autoDeleteOnIdle": "10675199 days, 2:48:05.477581",
+  "countDetails": {
+    "activeMessageCount": 0,
+    "deadLetterMessageCount": 0,
+    "scheduledMessageCount": 0,
+    "transferDeadLetterMessageCount": 0,
+    "transferMessageCount": 0
+  },
+  "createdAt": "2021-05-05T12:29:09.707000+00:00",
+  "deadLetteringOnMessageExpiration": false,
+  "defaultMessageTimeToLive": "14 days, 0:00:00",
+  "duplicateDetectionHistoryTimeWindow": "0:10:00",
+  "enableBatchedOperations": true,
+  "enableExpress": false,
+  "enablePartitioning": true,
+  "forwardDeadLetteredMessagesTo": null,
+  "forwardTo": null,
+  "id": "/subscriptions/5432daaa-6134-4139-bf42-50cc75091f0a/resourceGroups/group130785/providers/Microsoft.ServiceBus/namespaces/servicebus130785/queues/notificationqueue",
+  "location": "UAE North",
+  "lockDuration": "0:01:00",
+  "maxDeliveryCount": 10,
+  "maxSizeInMegabytes": 16384,
+  "messageCount": 0,
+  "name": "notificationqueue",
+  "requiresDuplicateDetection": false,
+  "requiresSession": false,
+  "resourceGroup": "group130785",
+  "sizeInBytes": 0,
+  "status": "Active",
+  "type": "Microsoft.ServiceBus/Namespaces/Queues",
+  "updatedAt": "2021-05-05T12:29:09.857000+00:00"
+}
+Endpoint=sb://servicebus130785.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=mZ+q5qAH0PfiQtjk8yxY2nSwdjmed6fg3FZOOejGBDo=

@@ -1,0 +1,21 @@
+The webapp 'techconf130785' doesn't exist
+Creating AppServicePlan 'appservice130785' ...
+Creating webapp 'techconf130785' ...
+Configuring default logging for the app, if not already enabled
+Creating zip with contents of dir C:\Users\hwdgr\Downloads\github_repo\Migrate-Tech-Conference-App-to-Azure\web ...
+Getting scm site credentials for zip deployment
+Starting zip deployment. This operation can take a while to complete ...
+Deployment endpoint responded with status code 202
+You can launch the app at http://techconf130785.azurewebsites.net
+{
+  "URL": "http://techconf130785.azurewebsites.net",
+  "appserviceplan": "appservice130785",
+  "location": "westus2",
+  "name": "techconf130785",
+  "os": "Linux",
+  "resourcegroup": "group130785",
+  "runtime_version": "python|3.7",
+  "runtime_version_detected": "-",
+  "sku": "FREE",
+  "src_path": "C:\\Users\\hwdgr\\Downloads\\github_repo\\Migrate-Tech-Conference-App-to-Azure\\web"
+}
